@@ -111,6 +111,7 @@
     color: white;
     font-size: 25px;
     padding: 12px 36px;
+    font-weight: 500;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid crimson;
@@ -245,7 +246,7 @@ section .title::after{
     transition: all 0.4s ease;
 }
 .formacao .forma-content .card:hover .box{
-    transform: scale(1.05);
+    transform: scale(0.5);
 }
 .formacao .forma-content .card .text{
     font-size: 24px;
@@ -350,7 +351,7 @@ section .title::after{
 .projetos .carousel .card .text{
     font-size: 30px;
     font-weight: 600;
-    margin: 16px 0 18px 0;
+    margin: 10px 0 7px 0;
 }
 .projetos .carousel .card img{
     height: 150px;
@@ -410,7 +411,7 @@ section .title::after{
 /*CONTATO*/
 
 .contato .title::after{
-    content: 'fale Comigo';
+    content: 'Fale Comigo';
 }
 .contato .contato-content .column{
     width: calc(50% - 30px);
@@ -446,7 +447,7 @@ section .title::after{
 }
 .contato .contato-content .info .head{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 4px;
 }
 .contato .contato-content .info .sub-title{
@@ -608,7 +609,6 @@ section .title::after{
     .formacao .forma-content .card{
         width: 100%;
     }
-
 }
 
 @media(max-width: 768px){
