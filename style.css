@@ -424,7 +424,7 @@ section .title::after{
     text-align: justify;
 }
 .contato .contato-content .left .icons{
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .contato .contato-content .left .row{
     margin: 10px 0;
@@ -455,10 +455,51 @@ section .title::after{
 .contato .right form .field, .contato .right form .fields .field{
     height: 45px;
     width: 100%;
+    margin-bottom: 15px;
 }
-.contato .right form .field input{
+.contato .right form .name{
+    margin-right: 10px;
+}
+.contato .right form .email{
+    margin-left: 10px;
+}
+.contato .right form .textarea{
+    height: 80px;
+}
+.contato .right form .field input, .contato .right .textarea textarea{
     height: 100%;
     width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', 'sans-serif';
+}
+.contato .right form .textarea textarea{
+    padding-top: 10px;
+    font-family: 'Poppins', 'sans-serif';
+    resize: none;
+}
+.contato .right form .button{
+    height: 50px;
+    width: 170px;
+}
+.contato .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.contato .right form .button button:hover{
+    color: crimson;
+    background: none;
 }
 
 
@@ -550,7 +591,7 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column{
+    .skills .skills-content .column, .contato .contato-content .column{
         width: 100%;
         margin-bottom: 35px;
     }
