@@ -127,7 +127,7 @@
 section{
     padding: 100px 0px;
 }
-.about, .formacao, .skills{
+.about, .formacao, .skills, .projetos{
     font-family: 'Poppings', sans-serif;
 }
 .about .about-content, .formacao .forma-content, .skills .skills-content{
@@ -213,14 +213,16 @@ section .title::after{
 
 /*FORMAÇÃO*/
 
-.formacao{
+.formacao, .projetos{
     background: #111;
     color: white;
 }
-.formacao .title::before{
+.formacao .title::before,
+.projetos .title::before{
     background: white;
 }
-.formacao .title::after{
+.formacao .title::after,
+.projetos .title::after{
     background: #111;
     content: "certificações";
 }
@@ -318,6 +320,84 @@ section .title::after{
 }
 */
 
+/*PROJETOS*/
+
+.projetos .title::after{
+    content: "trabalhos";
+}
+.projetos .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.projetos .carousel .card:hover{
+    background: crimson;
+}
+.projetos .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.projetos .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.projetos .carousel .card .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 16px 0 18px 0;
+}
+.projetos .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid crimson;
+    transition: all 0.4s ease;
+}
+.projetos .carousel .card:hover img{
+    border-color: white;
+}
+.btn-pj{
+    margin-top: 25px;
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.2s ease;
+}
+.projetos .carousel .card:hover .btn-pj{
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active, .owl-dot:hover{
+    background: crimson !important;
+}
 
 /*MEDIA QUERY RESPONSIVO*/
 
@@ -407,6 +487,10 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .skills .skills-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
 }
 
 @media(max-width: 690px){
@@ -425,6 +509,7 @@ section .title::after{
     .formacao .forma-content .card{
         width: 100%;
     }
+
 }
 
 @media(max-width: 768px){
