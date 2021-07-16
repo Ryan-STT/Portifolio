@@ -449,19 +449,14 @@ section .title::after{
     font-size: 20px;
     margin-bottom: 4px;
 }
-.contato .right form .fields{
-    display: flex;
+.contato .contato-content .info .sub-title{
+    cursor: pointer;
+    font-style: italic;
 }
 .contato .right form .field, .contato .right form .fields .field{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
-}
-.contato .right form .name{
-    margin-right: 10px;
-}
-.contato .right form .email{
-    margin-left: 10px;
 }
 .contato .right form .textarea{
     height: 80px;
