@@ -130,7 +130,7 @@ section{
 .about, .formacao, .skills, .projetos{
     font-family: 'Poppings', sans-serif;
 }
-.about .about-content, .formacao .forma-content, .skills .skills-content{
+.about .about-content, .formacao .forma-content, .skills .skills-content, .contato .contato-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -411,6 +411,54 @@ section .title::after{
 
 .contato .title::after{
     content: 'fale Comigo';
+}
+.contato .contato-content .column{
+    width: calc(50% - 30px);
+}
+.contato .contato-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contato .contato-content .left p{
+    text-align: justify;
+}
+.contato .contato-content .left .icons{
+    margin: 20px 0;
+}
+.contato .contato-content .left .row{
+    margin: 10px 0;
+}
+.contato .contato-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contato .contato-content .row .info{
+    margin-left: 30px;
+}
+.contato .contato-content .row i{
+    font-size: 30px;
+    color: crimson;
+}
+.ico{
+    color: white !important;
+}
+.contato .contato-content .info .head{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.contato .right form .fields{
+    display: flex;
+}
+.contato .right form .field, .contato .right form .fields .field{
+    height: 45px;
+    width: 100%;
+}
+.contato .right form .field input{
+    height: 100%;
+    width: 100%;
 }
 
 
