@@ -213,16 +213,18 @@ section .title::after{
 
 /*FORMAÇÃO*/
 
-.formacao, .projetos{
+.formacao, .projetos, .contato{
     background: #111;
     color: white;
 }
 .formacao .title::before,
-.projetos .title::before{
+.projetos .title::before,
+.contato .title::before{
     background: white;
 }
 .formacao .title::after,
-.projetos .title::after{
+.projetos .title::after,
+.contato .title::after{
     background: #111;
     content: "Certificações";
 }
@@ -323,7 +325,7 @@ section .title::after{
 /*PROJETOS*/
 
 .projetos .title::after{
-    content: "Trabalhos";
+    content: "Atividades";
 }
 .projetos .carousel .card{
     background: #222;
@@ -398,6 +400,19 @@ section .title::after{
 .owl-dot.active, .owl-dot:hover{
     background: crimson !important;
 }
+
+/*CARREIRA*/
+
+.carreira .title::after{
+    content: 'Experiência';
+}
+
+/*CONTATO*/
+
+.contato .title::after{
+    content: 'fale Comigo';
+}
+
 
 /*MEDIA QUERY RESPONSIVO*/
 
