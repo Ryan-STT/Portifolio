@@ -169,7 +169,7 @@ section .title::after{
 /*SOBRE*/
 
 .about .title::after{
-    content: "quem eu sou";
+    content: "Me conheça";
 }
 .about .about-content .left{
     width: 45%;
@@ -224,7 +224,7 @@ section .title::after{
 .formacao .title::after,
 .projetos .title::after{
     background: #111;
-    content: "certificações";
+    content: "Certificações";
 }
 .formacao .forma-content .card{
     width: calc(30% - 10px);
@@ -255,7 +255,7 @@ section .title::after{
 /*SKILLS*/
 
 .skills .title::after{
-    content: 'habilidades';
+    content: 'Habilidades';
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -323,7 +323,7 @@ section .title::after{
 /*PROJETOS*/
 
 .projetos .title::after{
-    content: "trabalhos";
+    content: "Trabalhos";
 }
 .projetos .carousel .card{
     background: #222;
