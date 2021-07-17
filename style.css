@@ -272,9 +272,6 @@ section .title::after{
 .formacao .forma-content .card .box{
     transition: all 0.4s ease;
 }
-.formacao .forma-content .card:hover .box{
-    transform: scale(0.5);
-}
 .formacao .forma-content .card .text{
     font-size: 24px;
     font-weight: 600;
