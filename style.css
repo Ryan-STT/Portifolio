@@ -8,6 +8,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*CABEÇALHO*/
 
@@ -74,6 +77,30 @@
     font-size: 23px;
     cursor: pointer;
     display: none;
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    font-weight: bolder;
+    z-index: 999;
+    font-size: 35px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: none;
 }
 
 /*HOME*/

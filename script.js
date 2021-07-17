@@ -5,6 +5,17 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show"); 
+        }
+    });
+
+    //slide-up
+
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
     });
 
     // TOGGLE MENU
@@ -19,7 +30,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut:2000,
+        autoplayTimeOut:1000,
         autoplayHoverPause: true,
         responsive: {
             0:{
