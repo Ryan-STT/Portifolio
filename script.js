@@ -12,7 +12,7 @@ $(document).ready(function(){
         }
     });
 
-    //slide-up
+    //SLIDE UP
 
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
@@ -25,7 +25,16 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    //owl carousel
+    //ANIMAÇÃO INSCREVER
+
+    var typed = new Typed(".typing",{
+        strings: ["DESENVOLVEDOR WEB", "BLOGGER", "GAY", "GOSTOSO"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    //OWL CAROUSEL
 
     $('.carousel').owlCarousel({
         margin: 20,
