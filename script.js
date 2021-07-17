@@ -28,7 +28,14 @@ $(document).ready(function(){
     //ANIMAÇÃO INSCREVER
 
     var typed = new Typed(".typing",{
-        strings: ["DESENVOLVEDOR WEB", "BLOGGER", "GAY", "GOSTOSO"],
+        strings: ["Desenvolvedor WEB", "Blogger", "Designer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2",{
+        strings: ["Desenvolvedor WEB", "Blogger", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
