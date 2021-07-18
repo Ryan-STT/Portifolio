@@ -774,6 +774,7 @@ section .title::after{
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
         border-radius: none !important;
+        background: none !important;
     }
 }  
 
