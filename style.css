@@ -685,7 +685,8 @@ section .title::after{
         width: 400px;
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
-        border-radius: none !important;
+        border-radius: 0 !important;
+        background: none !important;
     }
 }
 
@@ -773,7 +774,7 @@ section .title::after{
         width: 100%;
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
-        border-radius: none !important;
+        border-radius: 0 !important;
         background: none !important;
     }
 }  
