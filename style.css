@@ -149,6 +149,9 @@ html{
     font-weight: bolder;
     background: none;
 }
+.soico{
+    margin-left: 15px;
+}
 
 /*TODAS OS CONTENT SIMILARES*/
 
@@ -441,9 +444,10 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .contato .contato-content .text{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .contato .contato-content .left p{
     text-align: justify;
