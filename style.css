@@ -684,6 +684,9 @@ section .title::after{
     .carreira .carreiracorpo .container .card{
         width: 400px;
     }
+    .carreira .carreiracorpo .container .card:hover .imgBx{
+        border-radius: none !important;
+    }
 }
 
 @media (max-width: 947px){
@@ -768,6 +771,9 @@ section .title::after{
     .carreira .carreiracorpo .container .card .content{
         position: relative;
         width: 100%;
+    }
+    .carreira .carreiracorpo .container .card:hover .imgBx{
+        border-radius: none !important;
     }
 }  
 
