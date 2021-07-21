@@ -689,7 +689,7 @@ section .title::after{
         background: none !important;
     }
     .carreira .carreiracorpo .container .card{
-        background: rgb(169, 166, 166);
+        background: grey;
     }
 }
 
@@ -781,7 +781,7 @@ section .title::after{
         background: grey !important;
     }
     .carreira .carreiracorpo .container .card{
-        background: rgb(169, 166, 166);
+        background: grey;
     }
 }  
 
