@@ -686,7 +686,10 @@ section .title::after{
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
         border-radius: 0 !important;
-        background: grey !important;
+        background: none !important;
+    }
+    .carreira .carreiracorpo .container .card{
+        background: rgb(169, 166, 166);
     }
 }
 
@@ -776,6 +779,9 @@ section .title::after{
     .carreira .carreiracorpo .container .card:hover .imgBx{
         border-radius: 0 !important;
         background: grey !important;
+    }
+    .carreira .carreiracorpo .container .card{
+        background: rgb(169, 166, 166);
     }
 }  
 
