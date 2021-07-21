@@ -688,8 +688,8 @@ section .title::after{
         border-radius: 0 !important;
         background: none !important;
     }
-    .carreira .carreiracorpo .container .card{
-        background: grey;
+    .carreira .carreiracorpo .container .card .imgBx{
+        background: rgb(169, 166, 166) !important;
     }
 }
 
@@ -778,10 +778,10 @@ section .title::after{
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
         border-radius: 0 !important;
-        background: grey !important;
+        background: rgb(169, 166, 166) !important;
     }
-    .carreira .carreiracorpo .container .card{
-        background: grey;
+    .carreira .carreiracorpo .container .card .imgBx{
+        background: rgb(169, 166, 166) !important;
     }
 }  
 
