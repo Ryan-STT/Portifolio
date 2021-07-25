@@ -774,12 +774,6 @@ section .title::after{
     .formacao .forma-content .card{
         width: 100%;
     }
-    .about .about-content .right .text{
-        font-size: 29px;
-    }
-    .about .about-content .right .text p{
-        font-size: 28px;
-    }
 }
 
 @media(max-width: 768px){
@@ -828,20 +822,5 @@ section .title::after{
     .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
-    }
-}
-
-@media (max-width: 376px){
-    .about .about-content .right .text{
-        font-size: 14px;
-    }
-    .about .about-content .right .text p{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 321px){
-    .about .about-content .right .text{
-        display: none !important;
     }
 }
