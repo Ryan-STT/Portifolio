@@ -780,7 +780,7 @@ section .title::after{
     .formacao .forma-content .card{
         width: 100%;
         flex-direction: column;
-        height: auto;
+        height: 250px;
     }
     .carreira .carreiracorpo .container .card{
         max-width: 300px;
