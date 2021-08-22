@@ -242,6 +242,17 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.about .about-content .right .btn-a{
+    display: inline-block;
+    background: none;
+    color: crimson;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.2s ease;
+}
 
 /*FORMAÇÃO*/
 
