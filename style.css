@@ -305,6 +305,10 @@ section .title::after{
 .formacao .forma-content .card .face.back p{
     margin: 20px;
 }
+.formacao .forma-content .card .face.back span{
+    color: white;
+    font-weight: bolder;
+}
 .formacao .forma-content .card:hover .face.back{
     transform: perspective(500px) rotateY(360deg);
 }
@@ -475,7 +479,7 @@ section .title::after{
 }
 .carreira .carreiracorpo .container .card{
     position: relative;
-    height: 250px;
+    height: 280px;
     background: rgb(169, 166, 166);
     display: flex;
     width: 45%;
