@@ -59,6 +59,7 @@ $(document).ready(function(){
 });
 
     //ANIMAÇÕES
+    
     const target = document.querySelectorAll('[data-anime]');
     const animationClass = "animate";
 
