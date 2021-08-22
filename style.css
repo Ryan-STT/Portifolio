@@ -827,9 +827,6 @@ section .title::after{
         max-width: 300px;
         flex-direction: column;
         height: auto;
-        margin: auto;
-        justify-content: center;
-        text-align: center;
     }
     .carreira .carreiracorpo .container .card .imgBx{
         position: relative;
