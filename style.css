@@ -827,6 +827,9 @@ section .title::after{
         max-width: 300px;
         flex-direction: column;
         height: auto;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
     }
     .carreira .carreiracorpo .container .card .imgBx{
         position: relative;
@@ -843,6 +846,9 @@ section .title::after{
     .carreira .carreiracorpo .container .card .content{
         position: relative;
         width: 100%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
     }
     .carreira .carreiracorpo .container .card:hover .imgBx{
         border-radius: 0 !important;
