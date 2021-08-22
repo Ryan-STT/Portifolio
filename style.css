@@ -753,7 +753,8 @@ section .title::after{
         flex: 100%;
     }
     .formacao .forma-content .card{
-        width: 100% !important;
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
     }
     .skills .skills-content .column, .contato .contato-content .column{
         width: 100%;
