@@ -223,7 +223,7 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 15px;
 }
 .about .about-content .right a{
@@ -231,7 +231,7 @@ section .title::after{
     background: crimson;
     color: white;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
@@ -246,7 +246,7 @@ section .title::after{
     display: inline-block;
     background: none;
     color: crimson;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
@@ -357,7 +357,7 @@ section .title::after{
     background: none;
 }
 .skills .skills-content .right .bars{
-    margin-bottom: 15px;   
+    margin-bottom: 20px;   
 }
 .skills .skills-content .right .info{
     display: flex;
@@ -572,6 +572,10 @@ section .title::after{
     transition: all 0.2s ease;
     font-family: 'Ubuntu', sans-serif;
 }
+.carreira .carreiracorpo .container .card .content a:hover{
+    color: crimson;
+    background: none;
+}
 
 /*CONTATO*/
 
@@ -664,6 +668,30 @@ section .title::after{
     background: none;
 }
 
+/*ANIMAÇOES*/
+
+[data-anime]{
+    opacity: 0;
+    transition: .95s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime="top"]{
+    transform: translate3d(0, -50px, 0);
+}
+[data-anime="down"]{
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 /*MEDIA QUERY RESPONSIVO*/
 
 @media (max-width: 1300px){
@@ -713,6 +741,7 @@ section .title::after{
         font-size: 25px;
     }
 }
+
 
 @media (max-width: 991px){
     .max-width{

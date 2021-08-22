@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -50,10 +50,10 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Olá! Meu nome é</div>
-                <div class="text-2">RYAN DE SOUZA</div>
-                <div class="text-3">E sou um <span class="typing"></span></div>
-                <a href="#about">SAIBA MAIS</a>
+                <div class="text-1" data-anime="left">Olá! Meu nome é</div>
+                <div class="text-2" data-anime="left">RYAN DE SOUZA</div>
+                <div class="text-3" data-anime="left">E sou um <span class="typing"></span></div>
+                <a href="#about" data-anime="top">SAIBA MAIS</a>
             </div>
         </div>
     </section> 
@@ -62,16 +62,16 @@
 
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">SOBRE MIM</h2>
+            <h2 class="title" data-anime="down">SOBRE MIM</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="img/perfil.jpg" alt="">
+                    <img src="img/perfil.jpg" alt="foto Ryan De Souza Tomaz" data-anime="left">
                 </div>
-                <div class="column right">
+                <div class="column right" data-anime="right">
                     <div class="text">Meu nome é Ryan, sou um <span>Desenvolvedor WEB</span></div>
                     <p>Tenho 18 anos e sou um desenvolvedor Full-Stack júnior em desenvolvimento WEB, atualmente estou cursando tecnólogo em análise e desenvolvimento de sistemas na universidade Nove De Julho, participei de um grande processo de evolução e aprendizado após finalizar meus estudos com o INSTITUTO PROA, onde pude ingressar na área tecnologia para criação de páginas WEB. Estou me especializando em linguagem de programação JAVA entre outros frameworks, no entanto por ter um olhar sustentável e manter meu aprendizado em continuo avanço, pretendo aplicar meu conhecimento de forma criativa na biologia, além de trazer soluções criativas e inovadoras para o site de meus clientes aplicando UX/IX, assim o tornando dinâmico, fácil e referencia no mercado de trabalho ou pesquisas.</p>
-                    <a href="img/Curriculo Ryan De Souza Tomaz.pdf" download="Curriculo Ryan De Souza Tomaz.pdf" type="application/pdf" target="Curriculo Ryan De Souza Tomaz.pdf">Download CV</a>
-                    <a class="btn-a" href="#formacao">SAIBA MAIS</a>
+                    <a href="img/Curriculo Ryan De Souza Tomaz.pdf" download="Curriculo Ryan De Souza Tomaz.pdf" type="application/pdf" target="Curriculo Ryan De Souza Tomaz.pdf" data-anime="top">Download CV</a>
+                    <a class="btn-a" href="#formacao" data-anime="top">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -81,9 +81,9 @@
 
     <section class="formacao" id="formacao">
         <div class="max-width">
-            <h2 class="title">FORMAÇÃO</h2>
+            <h2 class="title" data-anime="down">FORMAÇÃO</h2>
             <div class="forma-content">
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h2>
                     </div>
@@ -91,15 +91,15 @@
                         <p><span>GRADUAÇÃO</span><br>UNIVERSIDADE NOVE DE JULHO</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>DESENVOLVEDOR WEB</h2>
                     </div>
                     <div class="face back">
-                        <p><span>TECNICO</span><br>INSTITUTO PROA</p>
+                        <p><span>TÉCNICO</span><br>INSTITUTO PROA</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>MARKETING DIGITAL</h2>
                     </div>
@@ -107,7 +107,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>GRUPO ALLNET</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>INFORMATICA EMPRESARIAL</h2>
                     </div>
@@ -115,7 +115,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>GRUPO ALLNET</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>TECNOLOGIA DA INFORMAÇÃO</h2>
                     </div>
@@ -123,7 +123,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>MEGATOC</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>EDIÇÃO DE IMAGEM</h2>
                     </div>
@@ -131,7 +131,7 @@
                         <p><span>OFICINA</span><br>SAGA</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>FULLSTACK DEVOLOPER</h2>
                     </div>
@@ -139,7 +139,7 @@
                         <p><span>BOOTCAMP</span><br>SANTANDER DIO</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>SCRUM</h2>
                     </div>
@@ -147,7 +147,7 @@
                         <p><span>CERTIFICAÇÃO</span><br>CERTIPROFº</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>GIT/GITHUB</h2>
                     </div>
@@ -155,7 +155,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>DIGITAL INNOVATION ONE</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>GESTÃO EMPRESARIAL</h2>
                     </div>
@@ -163,7 +163,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>GRUPO ALLNET</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>INGLÊS</h2>
                     </div>
@@ -171,7 +171,7 @@
                         <p><span>PROFISSIONALIZANTE</span><br>GRUPO ALLNET</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="down">
                     <div class="face front">
                         <h2>TELEMARKETING</h2>
                     </div>
@@ -187,104 +187,62 @@
 
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">SKILLS</h2>
+            <h2 class="title" data-anime="down">SKILLS</h2>
             <div class="skills-content">
-                <div class="column left">
+                <div class="column left" data-anime="left">
                     <div class="text">Minhas Skills & Experiências Criativas</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis officiis iusto nostrum, est maxime cupiditate recusandae earum vel expedita sunt fugit nam cum pariatur ut et porro possimus? Nemo sed eum quam facere aliquam possimus modi a numquam! Consequatur corporis dicta natus facere mollitia dolorem quae, nam aliquam voluptatum nulla sed blanditiis iure quia molestias libero dolorum exercitationem. Error?</p>
-                    <a href="#projetos">SAIBA MAIS</a>
+                    <p>Aqui temos em tópicos todas as minhas habilidades e experiências com ferramentas e linguagens ao decorrer dos meus anos na informática e desenvolvimento para internet. O porcentual define o crescimento em um geral relacionado ao próprio tópico, clicando pode ver de forma mais especifica cada tecnologia relacionada aos temas acima ou clique no botão abaixo para ver meus projetos!</p>
+                    <a href="#projetos" data-anime="top">VER AGORA</a>
                 </div>
                 <div class="column right">
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
-                            <span>HTML5</span>
+                            <span>FRONT-END</span>
                             <span>10%</span>
                         </div>
-                        <div class="line html"></div>
+                        <div class="line front"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
-                            <span>CSS3</span>
+                            <span>BACK-END</span>
                             <span>10%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line back"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
-                            <span>JAVASCRIPT</span>
+                            <span>FRAMEWORKS</span>
                             <span>10%</span>
                         </div>
-                        <div class="line js"></div>
+                        <div class="line frameworks"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
-                            <span>JAVA</span>
+                            <span>METODOLOGIAS ÁGEIAS</span>
                             <span>10%</span>
                         </div>
-                        <div class="line java"></div>
+                        <div class="line metodologia"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MYSQL</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>UX/IX</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line ux/ix"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>SCRUM</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line scrum"></div>
-                    </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
                             <span>EDIÇÃO DE IMAGEM</span>
                             <span>10%</span>
                         </div>
-                        <div class="line imagem"></div>
+                        <div class="line edicao"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>GITHUB/GIT</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line git"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>DEVOPS</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line devops"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>BLOG</span>
-                            <span>10%</span>
-                        </div>
-                        <div class="line blog"></div>
-                    </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
                             <span>MARKETING DIGITAL</span>
                             <span>10%</span>
                         </div>
                         <div class="line marketing"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-anime="down">
                         <div class="info">
-                            <span>BOOTSTRAP</span>
+                            <span>FERRAMENTAS</span>
                             <span>10%</span>
                         </div>
-                        <div class="line BOOTSTRAP"></div>
+                        <div class="line ferramentas"></div>
                     </div>
                 </div>
             </div>
@@ -295,57 +253,57 @@
 
     <section class="projetos" id="projetos">
         <div class="max-width">
-            <h2 class="title">PROJETOS</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
+            <h2 class="title" data-anime="down">PROJETOS</h2>
+            <div class="carousel owl-carousel" data-anime="down">
+                <abbr title="Centro de Oportunidade Cultural à Criança é um projeto de TCC, desenvolvido com linguagem Java, com o propósito de criar um site para crianças de 5 a 12 anos, com conteúdo cultural brasileiro de músicas, livros, desenhos e quiz para o desenvolvimento infantil. Além disso, auxiliando os pais para a segurança e monitoramento de seus filhos na internet. Foi estruturado em HTML5, CSS3, JavaScript e banco de dados SQL."><div class="card">
                     <div class="box">
                         <img src="img/cocc.png" alt="">
                         <div class="text">COCC</div>
                         <a href="https://ryan-stt.github.io/institutococc/"><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
-                <div class="card">
+                </div></abbr>
+                <abbr title="BREVE"><div class="card">
                     <div class="box">
                         <img src="img/breve.jpg" alt="">
                         <div class="text">BREVE</div>
                         <a href=""><button class="btn-pj">VEJA MAIS</button></a>
                     </div>
-                </div>
+                </div></abbr>
             </div>
         </div>
     </section>
@@ -353,9 +311,9 @@
     <!--CARREIRA-->
 
     <section class="carreira" id="carreira">
-            <h2 class="title">CARREIRA</h2>
+            <h2 class="title" data-anime="down">CARREIRA</h2>
             <div class="carreiracorpo">
-                <div class="container">
+                <div class="container" data-anime="right">
                     <div class="card">
                         <div class="imgBx">
                             <img src="img/allnet.png" alt="">
@@ -364,7 +322,7 @@
                             <div>
                                 <h3>GRUPO ALL NET</h3>
                                 <p>Estagiário exercendo trabalhos administrativos como auxilar de escritório,  além disso, atendimento ao cliente onde puxe desenvolver habilidades e técnicas para comunicação em atendimentos presenciais e telefônicos</p>
-                                <a href="https://www.linkedin.com/company/grupoallnet/">Leia Mais</a>
+                                <a href="https://www.linkedin.com/company/grupoallnet/">CONHECER</a>
                             </div>
                         </div>
                     </div>
@@ -376,7 +334,7 @@
                             <div>
                                 <h3>BREVE</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum est voluptates asperiores odio ducimus sint animi saepe ab sit quasi, optio aperiam! Quis recusandae mollitia repellat, omnis est facilis?</p>
-                                <a href="#">Leia Mais</a>
+                                <a href="#">CONHECER</a>
                             </div>
                         </div>
                     </div>
@@ -388,41 +346,40 @@
 
     <section class="contato" id="contato">
         <div class="max-width">
-            <h2 class="title">CONTATO</h2>
+            <h2 class="title" data-anime="down">CONTATO</h2>
             <div class="contato-content">
                 <div class="column left">
-                    <div class="text">Entre em Contato</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda eligendi quod deleniti? Nobis consequatur expedita architecto quidem doloremque quisquam dolore corrupti veniam ipsum</p>
+                    <div class="text" data-anime="left">Entre em Contato</div>
+                    <p data-anime="left">Agradeço por chegar até aqui e ver um pouco do meu trabalho e trajetória, estou apenas começando e todo feedback é bem-vindo, além disso, se gostou do meu trabalho ou quer me ajudar de alguma forma com cursos ou uma oportunidade, abaixo tem alguns meios para entrar em contato comigo, ou também a caixa de mensagem para meio e-mail. Agradeço a atenção e espero que entre em contato futuramente!</p>
                     <div class="icons">
-                        <div class="row">
+                        <div class="row" data-anime="down">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Nome</div>
                                 <div class="sub-titlee">Ryan De Souza Tomaz</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-anime="down">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
                                 <div class="sub-title"><a class="ico" href="mailto:ryantomaz1090@gmail.com">Clique Aqui</a></div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-anime="down">
                             <i class="fab fa-whatsapp"></i>
                             <div class="info">
                                 <div class="head">Whatsapp</div>
                                 <div class="sub-title"><a class="ico" href="https://wa.me/+5511974551685">Clique Aqui</a></div>
                             </div>
                         </div>
-                        <div class="row">
-                            <i class="fab fa-linkedin-in"></i>
-                            <div class="info">
+                        <div class="row" data-anime="down">
+                            <i class="fab fa-linkedin"></i>                            <div class="info">
                                 <div class="head">Linkedin</div>
                                 <div class="sub-title"><a class="ico" href="https://www.linkedin.com/in/ryan-souza/">Clique Aqui</a></div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-anime="down">
                             <i class="fab fa-github"></i>
                             <div class="info">
                                 <div class="head">GitHub</div>
@@ -431,7 +388,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
+                <div class="column right" data-anime="left">
                     <div class="text">Mensagem</div>
                     <form action="mailto:ryantomaz1090@gmail.com" method="POST" enctype="text/plain">
                         <div class="fields">

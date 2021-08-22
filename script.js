@@ -25,10 +25,10 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    //ANIMAÇÃO INSCREVER
+    //ANIMAÇÃO ESCREVER
 
     var typed = new Typed(".typing",{
-        strings: ["Desenvolvedor WEB", "Blogger", "Designer"],
+        strings: ["Desenvolvedor Web", "Blogger", "Web designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -56,5 +56,25 @@ $(document).ready(function(){
             }
         }
     });
-
 });
+
+    //ANIMAÇÕES
+    const target = document.querySelectorAll('[data-anime]');
+    const animationClass = "animate";
+
+    function animeScroll() {
+        const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+        target.forEach(function(element){
+            if((windowTop) > element.offsetTop){
+                element.classList.add(animationClass)
+            } else{
+                element.classList.remove(animationClass)
+            }
+        })
+    }
+    
+    animeScroll();
+
+    window.addEventListener('scroll', function(){
+        animeScroll();
+    })
