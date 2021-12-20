@@ -208,7 +208,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 7px;
+    border-radius: 20%;
 }
 .about .about-content .right{
     width: 55%;
@@ -216,7 +216,7 @@ section .title::after{
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .about .about-content .right .text span{
     color: crimson;   
@@ -225,6 +225,8 @@ section .title::after{
     text-align: justify;
     font-size: 18px;
     margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -335,10 +337,11 @@ section .title::after{
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .skills .skills-content .left p{
     text-align: justify;
+    line-height: 25px;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -593,6 +596,7 @@ section .title::after{
 }
 .contato .contato-content .left p{
     text-align: justify;
+    line-height: 28px;
 }
 .contato .contato-content .left .icons{
     margin: 25px 0;
