@@ -50,7 +50,7 @@ $(document).ready(function(){
     //ANIMAÇÃO ESCREVER
 
     var typed = new Typed(".typing",{
-        strings: ["Desenvolvedor", "Blogger", "QA Tester"],
+        strings: ["desenvolvedor Android"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

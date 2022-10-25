@@ -32,24 +32,12 @@ html{
 }
 .navbar.sticky{
     padding: 20px 0px;
-    background: crimson;
+    background: #5600fe;
 }
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.navbar .logo a{
-    color: white;
-    font-size: 48px;
-    font-weight: 600;
-}
-.navbar .logo a span{
-    color: crimson;
-    transition: all 0.5s ease;
-}
-.navbar.sticky .logo a span{
-    color: white;
 }
 .navbar .menu li{
     list-style: none;
@@ -64,7 +52,7 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #5600fe;
     font-weight: bolder;
 }
 .navbar.sticky .menu li a:hover{
@@ -83,7 +71,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #5600fe;
     right: 10px;
     bottom: 10px;
     text-align: center;
@@ -129,23 +117,23 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #5600fe;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #5600fe;
     color: white;
     font-size: 25px;
     padding: 12px 36px;
     font-weight: 500;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #5600fe;
     transition: all 0.2s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #5600fe;
     background: none;
 }
 .soico{
@@ -189,7 +177,7 @@ section .title::after{
     position: absolute;
     padding: 5px;
     font-size: 20px;
-    color: crimson;
+    color: #5600fe;
     background: white;
     bottom: -12px;
     left: 50%;
@@ -219,7 +207,7 @@ section .title::after{
     margin-bottom: 20px;
 }
 .about .about-content .right .text span{
-    color: crimson;   
+    color: #5600fe;   
 }
 .about .about-content .right p{
     text-align: justify;
@@ -230,29 +218,29 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #5600fe;
     color: white;
     font-weight: bolder;
     font-size: 23px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #5600fe;
     transition: all 0.2s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #5600fe;
     background: none;
 }
 .about .about-content .right .btn-a{
     display: inline-block;
     background: none;
-    color: crimson;
+    color: #5600fe;
     font-size: 23px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #5600fe;
     transition: all 0.2s ease;
 }
 
@@ -310,7 +298,7 @@ section .title::after{
     transform: perspective(500px) rotateY(180deg);
 }
 .formacao .forma-content .card .face.back{
-    background: crimson;
+    background: #5600fe;
     color: white;
     text-align: center;
     transform: perspective(500px) rotateY(180deg);
@@ -345,18 +333,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: #5600fe;
     color: white;
     font-weight: bolder;
     font-size: 18px;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #5600fe;
     transition: all 0.2s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: #5600fe;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -383,17 +371,28 @@ section .title::after{
     content: "";
     position: absolute;
     height: 100%;
-    width: 10%;
     left: 0;
     top:0;
-    background: crimson;
+    background: #5600fe;
     border-radius: 10px;
 }
-/* (CASO HAJA ALTERAÇÕES NA PORCENTAGEM, USAR SEPARADAMENTE TROCANDO LINE POR CLASSE)
-.skills-content .right .html::before{
-    width: 10%;
+
+.skills .skills-content .right .linefront::before{
+    width: 50%;
 }
-*/
+.skills .skills-content .right .lineback::before{
+    width: 30%;
+}
+.skills .skills-content .right .lineferramentas::before{
+    width: 35%;
+}
+.skills .skills-content .right .lineframeworks::before{
+    width: 45%;
+}
+.skills .skills-content .right .linemetodologia::before{
+    width: 35%;
+}
+
 
 /*PROJETOS*/
 
@@ -408,7 +407,7 @@ section .title::after{
     transition: all 0.4s ease;
 }
 .projetos .carousel .card:hover{
-    background: crimson;
+    background: #5600fe;
 }
 .projetos .carousel .card .box{
     display: flex;
@@ -430,7 +429,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 6px solid crimson;
+    border: 6px solid #5600fe;
     transition: all 0.4s ease;
 }
 .projetos .carousel .card:hover img{
@@ -439,13 +438,13 @@ section .title::after{
 .btn-pj{
     margin-top: 25px;
     display: inline-block;
-    background: crimson;
+    background: #5600fe;
     color: white;
     font-weight: bolder;
     font-size: 15px;
     padding: 8px 16px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #5600fe;
     transition: all 0.2s ease;
 }
 .projetos .carousel .card:hover .btn-pj{
@@ -463,7 +462,7 @@ section .title::after{
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid #5600fe !important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -471,7 +470,7 @@ section .title::after{
     border-radius: 14px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: crimson !important;
+    background: #5600fe !important;
 }
 
 /*CARREIRA*/
@@ -494,11 +493,12 @@ section .title::after{
 .carreira .carreiracorpo .container .card{
     position: relative;
     height: 280px;
-    background: rgb(169, 166, 166);
+    background: #5600fe;
     display: flex;
     width: 45%;
     margin: 30px 0;
     border-radius: 3%;
+    color: white;
 }
 .carreira .carreiracorpo .container .card .imgBx{
     position: absolute;
@@ -521,7 +521,7 @@ section .title::after{
     left: -75px;
     top: calc(50% - 75px);
     transition: 0.5s ease-in-out;
-    background: crimson;
+    background: #5600fe;
     border-radius: 50%;
 }
 .carreira .carreiracorpo .container .card .imgBx::before{
@@ -564,19 +564,19 @@ section .title::after{
 }
 .carreira .carreiracorpo .container .card .content a{
     display: inline-block;
-    background: crimson;
-    color: white;
+    background: white;
+    color: #5600fe;
     font-weight: bolder;
     font-size: 15px;
     padding: 5px 20px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid white;
     transition: all 0.2s ease;
     font-family: 'Ubuntu', sans-serif;
 }
 .carreira .carreiracorpo .container .card .content a:hover{
-    color: crimson;
+    color: white;
     background: none;
 }
 
@@ -614,7 +614,7 @@ section .title::after{
 }
 .contato .contato-content .row i{
     font-size: 30px;
-    color: crimson;
+    color: #5600fe;
 }
 .ico{
     color: white !important;
@@ -658,8 +658,8 @@ section .title::after{
 .contato .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #5600fe;
+    background: #5600fe;
     color: white;
     font-size: 16px;
     font-weight: bolder;
@@ -668,7 +668,7 @@ section .title::after{
     cursor: pointer;
 }
 .contato .right form .button button:hover{
-    color: crimson;
+    color: #5600fe;
     background: none;
 }
 
