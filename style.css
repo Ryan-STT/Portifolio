@@ -521,7 +521,7 @@ section .title::after{
     left: -75px;
     top: calc(50% - 75px);
     transition: 0.5s ease-in-out;
-    background: #5600fe;
+    background: white;
     border-radius: 50%;
 }
 .carreira .carreiracorpo .container .card .imgBx::before{
